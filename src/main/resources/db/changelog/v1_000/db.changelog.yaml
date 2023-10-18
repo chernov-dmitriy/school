@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - logicalFilePath: no-path
+  - include:
+      file: 20231018_person_table.yaml
+      relativeToChangelogFile: true
