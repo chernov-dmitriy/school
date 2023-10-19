@@ -9,8 +9,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: per_id
-                  type: int
-                  autoIncrement: true
+                  type: BINARY(16)
                   constraints:
                     primaryKey: true
                     nullable: false
